@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "treeharvest",
+  "version": "${version}",
+  "name": "Tree Harvest",
+  "description": "Quebrou um tronco com um machado, a arvore inteira cai.",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.treeharvest.TreeHarvest"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
